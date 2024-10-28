@@ -1,0 +1,186 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
+
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+
+/* icon color */
+.icn_col {
+    color: #FCC21B;
+
+}
+
+/* header */
+
+header {
+    background-color: #372D23;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 80px;
+    max-width: inherit;
+    width: inherit;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    height: 130px;
+    align-items: center;
+}
+
+.logo {
+    width: 72px;
+}
+
+
+
+header nav {
+    vertical-align: middle;
+}
+
+
+header nav ul {
+
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+
+
+
+header ul li {
+    list-style: none;
+    margin-left: 48px;
+}
+
+header ul li:first-child {
+    margin-left: 0px;
+}
+
+
+header ul li a {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FCC21B;
+
+}
+
+
+header ul li a:hover {
+    text-decoration: underline;
+    color: #ED6C30;
+}
+
+.act {
+    color: #ED6C30;
+}
+
+
+
+
+/* section_cover */
+.section_cover {
+    height: 640px;
+    position: relative;
+    margin-top: 130px;
+}
+
+.c_text {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    box-shadow: 6px 2px 4px 0px #372D23;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+    background-color: #FCC21B;
+    padding: 76px 40px;
+
+    box-shadow: 10px 10px 4px 0px #00000080 inset;
+
+
+
+}
+
+.c_image {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* section_main */
+
+.section_main {
+    width: calc(1200 / 1440 * 100%);
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.art_main {
+    width: 550px;
+}
+
+.art_main h2 {
+
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: #372D23
+}
+
+.art_main p {
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #C65C14
+}
+
+
+/* footer */
+
+footer {
+
+    height: 184px;
+    background: #372D23;
+    text-align: center;
+    padding: 32px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ul_ft li {
+    margin: 8px;
+    display: block;
+    text-align: left;
+    color: #FCC21B;
+    ;
+}
+
+
+
+footer nav {
+    display: block;
+    width: 210px;
+}
+
+footer li {
+    display: inline-block;
+    margin-left: 24px;
+
+}
